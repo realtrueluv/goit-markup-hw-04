@@ -630,17 +630,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .vv {
-    margin-top: 94px;
-    margin-bottom: 50px;
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-bottom: 50px;
+    font-style: normal;
 }
 
 .flexwrap-6 {
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
 }
 
 .hz-1:hover {
@@ -690,4 +689,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .linkshadow:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
